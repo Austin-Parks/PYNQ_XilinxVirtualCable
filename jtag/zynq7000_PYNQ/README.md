@@ -10,7 +10,7 @@ Modified by Austin Parks
 
 This fork uses a modifed version of the mmap mode from XAP1251. I changed the IO device file target to /dev/mem (with an absolute offset) instead of using the generic_uio drivers setup in the examples. Yes I know this is dangerous, but here me out... This allows you to bypass the need for instanteating the generic_uio device drivers via device tree instanteations. Just plop a Debug bridge in AXI-to-BSCAN mode into your bitstream design and the pynq_xvc_utils.py module should be able to discover the debug bridge IP in your Overlay and automatically launch the xvcServer program!
 
-# Smartlinks for everyone ! No more sharing ! Your Welcome [^_^]_/
+# Smart Lynqs for everyone ! No more sharing ! Your Welcome [^_^]_/
 
 From a fresh PYNQ image, open a web browser and go to the jupyter lab url:
 
