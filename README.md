@@ -1,3 +1,5 @@
+# For PYNQ Demo Instructions navigate to jtag/zynq7000_PYNQ
+
 # XilinxVirtualCable
 **Description**:  Xilinx Virtual Cable (XVC) is a TCP/IP-based protocol that 
 acts like a JTAG cable and provides a means to access and debug your 
